@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:textDirection="rtl">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="جمعيتي"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#222"/>
+
+    <TextView
+        android:id="@+id/widget_paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مدفوع: 0"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/widget_remaining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="متبقي: 0"
+        android:textSize="14sp"/>
+</LinearLayout>
